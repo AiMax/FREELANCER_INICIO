@@ -1,0 +1,31 @@
+:root {
+    /* declaramos variables propias */
+    --blanco: #ffffff;
+    --ocuro: #21212121;
+    --primario: #FFC107;
+    --secundario: #0097A7;
+    --gris: #757575;
+    
+    --fuente-princial: 3.8rem;
+}
+
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 16px; /*1rem = 10px*/
+}
+
+.titulo {
+    text-align: center;
+    color: red;
+    font-size: var(--fuente-princial);
+    color: var(--primario);
+}
+
+/*Lo aplica a los span que se encuentran en un H1*/
+.titulo span {
+    font-size: 2rem;
+}
