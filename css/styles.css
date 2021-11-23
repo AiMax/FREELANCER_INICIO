@@ -9,13 +9,15 @@
     --fuente-princial: 3.8rem;
 }
 
-
+/*Con estas dos declaraciones estandarizamos  */
 html {
     font-size: 62.5%;
 }
 
+/*Lo que coloquemos aquí va a aplicar a todo el texto.*/
 body {
     font-size: 16px; /*1rem = 10px*/
+    font-family: 'Krub', sans-serif;
 }
 
 .titulo {
